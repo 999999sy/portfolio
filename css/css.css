@@ -156,7 +156,7 @@ nav ul li a:hover {
   font-size: 80px;
   font-weight: bold;
   color: #3c5f9f;
-  cursor: pointer;
+  /* cursor: pointer; */
 
 }
 

@@ -1,11 +1,60 @@
 @charset "UTF-8";
 
-
+/* main color -  #3c5f9f */
+/* sub color - #ffde00 */
 /* work */
+
 #WORK{
   width:100%;
   height:700px;
-  background: yellow;
+  /* background: yellow; */
 }
 
 /* section */
+
+.work_banner{
+  width:100%;
+  height:150px;
+  line-height: 150px;
+}
+
+.work_banner span{
+    display: block;
+    width:inherit;
+    height: inherit;
+    /* line-height: inherit; */
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:#3c5f9f;
+    /* bg */
+    background: url(../img/banner/work_banner.jpg) no-repeat fixed;
+    background-size: cover;
+}
+/*  starbucks  */
+
+.work_slider{
+  margin:auto;
+  width:1200px;
+  height: auto;
+  overflow: hidden;
+}
+ul.work_list{
+  display: block;
+  width:2000px;
+}
+ul.work_list li{
+  display: block;
+  float: left;
+  /* margin-right: 100px; */
+  margin-left: 100px;
+  width:400px;
+  height:500px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+ul.work_list li .star img{
+  display: block;
+  width:390px;
+}
