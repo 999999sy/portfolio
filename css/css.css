@@ -191,6 +191,7 @@ nav ul li a:hover {
   transition: 0.3s;
   box-sizing: border-box;
   cursor: pointer;
+    border: 1px solid #3c5f9f;
 }
 
 .main_text span.button:hover {
