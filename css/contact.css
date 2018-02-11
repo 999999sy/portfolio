@@ -3,6 +3,52 @@
 /* contact */
 #CONTACT{
   width:100%;
-  height:700px;
-  background:blue;
+  height:500px;
+  /* background:blue; */
+}
+
+.contact_wrap{
+  border: 1px solid #000;
+  margin:auto;
+  height:auto;
+  width:1200px;
+}
+
+/* contact banner title */
+.contact_wrap .contac_banner h2{
+  margin:auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color:#3c5f9f;
+  margin-top: 60px;
+  margin-bottom:20px;
+}
+
+
+/* left content */
+.contact_wrap .contact_left{
+  margin:auto;
+  width:50%;
+
+}
+.contact_wrap .contact_left img{
+  display: block;
+  margin:auto;
+  width:500px;
+
+
+}
+/* .contact_wrap .contact_left span{
+  margin:auto;
+  display: block;
+  /* font-size: 40px; */
+  /* font-weight: bold; */
+  color:#3c5f9f;
+} */
+
+/* right content */
+.contact_wrap .contact_right{
+  width:50%;
+  float: right;
 }
