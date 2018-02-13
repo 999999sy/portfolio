@@ -25,29 +25,30 @@ function slider(){
   // }
 
   // slide button
- var num = 0;
+ var num = -1;
 
 
   $('.slide_button .button_right').on('click',function(){
     num--;
     $('ul.work_list').stop().animate({'marginLeft':li_width*num},1000);
       if(-list_length==num-1){
-        num=-1;
-        list.css('margin-left','num')
+        num=1;
+        list.css('margin-left','num');
       }
       console.log(num);
       console.log(-list_length);
   })
 
   $('.slide_button .button_left').on('click',function(){
+    num=0;
     num++;
-    $('ul.work_list').stop().animate({'marginLeft':li_width*num},1000);
-    if(list_length==num+1){
+    $('ul.work_list').stop().animate({'marginLeft':li_width*num-400},1000);
+    if(list_length==num){
       num=0;
-      list.css('margin-left','li_width');
+      list.css('margin-left','num');
     }
-
-    console.log(num);
-    console.log(list_length);
+    //
+    // console.log(num);
+    // console.log(list_length);
   })
 }
