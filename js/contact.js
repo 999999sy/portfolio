@@ -7,21 +7,24 @@ $(document).ready(function(){
 
   // modal height 값 조정
   console.log(window_top);
-  // $('.modal').css('height',top_height_1);
-  //
-  //
-  // if(top_height==scroll_top){
-  //   $('.modal').css('display','block');
-  // }
-  // $('.modal').click(function(){
-  //   $('.modal').css('display','none');
-  //
-  // // })
-
-
   console.log(scroll_top);
   console.log(top_height);
 
 
 
+  mouse();
+
+
 })
+
+function mouse(){
+  $('.contact_phone img').mouseover(function(){
+    $('.modal').fadeIn("slow").css('display','block');
+    return false;
+  })
+  $('.modal').click(function(){
+      $(this).fadeOut('slow').css('display','none');
+      $(this).css('cursor','pointer');
+  })
+
+}

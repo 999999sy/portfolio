@@ -234,11 +234,12 @@ ul.work_list li .work_web img:hover {
 }
 
 .purapy>ul>li>.work_web>a>img {
-  margin-top:-30px;
+  /* margin-top:-30px; */
   display: block;
   float: left;
   width: 670px;
   overflow:hidden;
+  transition:0.3s;
 }
 
 .purapy>ul>li .work_web{
@@ -292,17 +293,10 @@ ul.work_list li .work_web img:hover {
   font-size: 13px;
   background: #000;
   color: #fff;
-  /* border: 1px solid #000; */
   transition: 0.5s;
   cursor: pointer;
 }
 
-/* .purapy>ul>li .work_web div.show_button:hover {
-  background: #fff;
-  color: #000;
-  border: 1px solid #000;
-  border-radius: 5px;
-} */
 .purapy>ul>li .work_web div.show_button a {
   display:block;
   width: 80px;
