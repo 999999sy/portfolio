@@ -16,7 +16,7 @@ $(document).ready(function(){
   // $('.modal').click(function(){
   //   $('.modal').css('display','none');
   //
-  // })
+  // // })
 
 
   console.log(scroll_top);

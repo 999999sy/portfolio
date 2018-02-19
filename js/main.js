@@ -23,6 +23,8 @@ haha_img();
       else {
           $('nav').css("position","relative")
       }
+
+      
    });
 
    // page scroll

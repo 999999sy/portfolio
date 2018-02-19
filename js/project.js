@@ -2,6 +2,12 @@ $(document).ready(function(){
 
   slider();
 
+    $('.work_web img').mouseover(function(){
+      $(this).css('opacity','0.5');
+    })
+    $('.work_web img').mouseleave(function(){
+      $(this).css('opacity','1');
+    })
 
 
 })
@@ -47,8 +53,20 @@ function slider(){
       num=0;
       list.css('margin-left','num');
     }
-    //
-    // console.log(num);
-    // console.log(list_length);
+
   })
+
+
+// $('.show_button').hover(function(){
+//   $('.show_button').css('background','#fff');
+// },function(){
+//   $('.show_button').css('color',' #3c5f9f');
+// },function(){
+//   $('.show_button').css('border','1px solid #3c5f9f');
+// },function(){
+//   $('.show_button').css('border-radius','5px');
+// })
+
+
+
 }
