@@ -187,14 +187,37 @@ nav ul li a:hover {
   background-color: #3c5f9f;
   text-align: center;
   line-height: 40px;
+  /* color: #fff; */
+  transition: 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+    /* border: 1px solid #3c5f9f; */
+}
+
+.main_text span.button:hover {
+  background-color: #ffde00;
+  /* border: 1px solid #3c5f9f; */
+  /* color: #3c5f9f; */
+  line-height: 40px;
+  /* font-weight: bold; */
+  box-sizing: border-box;
+}
+.main_text span.button a{
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #3c5f9f;
+  text-align: center;
+  line-height: 40px;
   color: #fff;
   transition: 0.3s;
   box-sizing: border-box;
   cursor: pointer;
     border: 1px solid #3c5f9f;
 }
-
-.main_text span.button:hover {
+.main_text span.button a:hover {
   background-color: #ffde00;
   border: 1px solid #3c5f9f;
   color: #3c5f9f;
