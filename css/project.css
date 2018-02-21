@@ -103,7 +103,7 @@ ul.work_list li .work_web img:hover {
   font-weight: bold;
   text-align: center;
   color: #3c5f9f;
-  border-bottom: 1px dashed #3c5f9f;
+  border-bottom: 1px solid #3c5f9f;
 }
 
 .work_list li .work_web div.show_button{
