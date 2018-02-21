@@ -23,8 +23,8 @@
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   transform: rotate(45deg);
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   margin: 0 0 3px 5px;
 }
 
@@ -35,7 +35,7 @@
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   top: 170px;
 }
 
@@ -71,7 +71,7 @@
   width: 2px;
   display: block;
   margin: 5px auto;
-  background: #000;
+  background: #fff;
   position: relative;
 }
 
