@@ -278,7 +278,7 @@ ul.work_list li .work_web img:hover {
   font-weight: bold;
   text-align: center;
   color: #000;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px solid #000;
 }
 
 .purapy>ul>li .work_web div.show_button {
