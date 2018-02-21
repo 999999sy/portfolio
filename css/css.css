@@ -101,7 +101,7 @@ nav ul li a:hover {
   height: auto;
   z-index: 10;
 }
-.haha_line_1{
+/* .haha_line_1{
   position: absolute;
       top: 0;
       right: -20px;
@@ -120,7 +120,7 @@ nav ul li a:hover {
   width: 201px;
   height: 28px;
   background-color: #3c5f9f;
-}
+} */
 .haha_line_3{
   position: absolute;
   top: 205px;
