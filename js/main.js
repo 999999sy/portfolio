@@ -13,11 +13,13 @@ haha_img();
       var nav_height = $('nav').height();
       var imgsize =$(this).scrollTop();
       var top = $('header').offset().top;
-  if(imgsize>1){
+  if(imgsize>2){
       $('nav').css({
+          border:'0px',
           position:'fixed',
           top:'0',
           opacity:'0.9',
+
       });
        }
       else {
