@@ -55,7 +55,7 @@
   left:50%;
   transform: translate(-50%,-140%);
   width: 100%;
-  height:643px;
+  height:615px;
   background-color: rgba(0, 0, 0, 0.5);
   /* background-color: #0948bbb5; */
 
@@ -65,12 +65,12 @@
 
 .modal img {
   display: block;
-      width: 350px;
+      width: 339px;
       position: absolute;
       top: 50%;
       left: 50%;
       /* background: rgba(0, 0, 0, 0.5); */
-      transform: translate(-50%, -49%);
+      transform: translate(-50%, -50%);
       z-index: 999;
 
 }

@@ -217,7 +217,7 @@ ul.work_list li .work_web img:hover {
 
 .purapy {
   margin: auto;
-  width: 1000px;
+  width: 1200px;
   height: 550px;
 }
 
@@ -229,18 +229,18 @@ ul.work_list li .work_web img:hover {
   display: block;
   margin:auto;
   float: left;
-  width: 1000px;
+  width: 1200px;
   height: 470px;
   box-sizing: border-box;
 }
 
 .purapy>ul>li>.work_web>a>img {
-  /* margin-top:-30px; */
+  margin-top:30px;
   display: block;
-  float: left;
-  width: 670px;
-  overflow:hidden;
-  transition:0.3s;
+      float: left;
+      width: 700px;
+      overflow: hidden;
+      transition: 0.3s;
 }
 
 .purapy>ul>li .work_web{
@@ -252,7 +252,7 @@ ul.work_list li .work_web img:hover {
 
       float: right;
       margin-top:170px;
-      width: 290px;
+      width: 320px;
       border: 5px solid #000;
       border-top: 0;
       border-bottom: 0;
@@ -284,23 +284,23 @@ ul.work_list li .work_web img:hover {
 
 .purapy>ul>li .work_web div.show_button {
   float: right;
-  margin-right:106px;
-  margin-top: 30px;
-  text-align: center;
-  width: 80px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 5px;
-  font-size: 13px;
-  background: #000;
-  color: #fff;
-  transition: 0.5s;
-  cursor: pointer;
+      margin-right: 133px;
+      margin-top: 30px;
+      text-align: center;
+      width: 80px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 5px;
+      font-size: 13px;
+      background: #000;
+      color: #fff;
+      transition: 0.5s;
+      cursor: pointer;
 }
 
 .purapy>ul>li .work_web div.show_button a {
-  display:block;
-  width: 80px;
+  display: block;
+  width: 100px;
   height: 30px;
   background: #000;
   color: #fff;
