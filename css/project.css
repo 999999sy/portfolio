@@ -50,7 +50,7 @@
 ul.work_list {
   display: block;
   width: 3300px;
-  margin-left: -400px;
+  /* margin-left: -400px; */
 }
 
 ul.work_list li {
@@ -229,7 +229,7 @@ ul.work_list li .work_web img:hover {
   display: block;
   margin:auto;
   float: left;
-  width: 1200px;
+  width: 1150px;
   height: 470px;
   box-sizing: border-box;
 }
