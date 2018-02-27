@@ -4,10 +4,8 @@
 #CONTACT {
   width: 100%;
   height: 520px;
-  cursor:pointer;
-  /* background:blue; */
+  cursor: pointer;
 }
-
 
 .contact_wrap {
   /* border: 1px solid #000; */
@@ -17,11 +15,13 @@
 }
 
 /* contact banner title */
+
 /* .contact_wrap .contac_banner h2:before{
   display: block;
   content: '';
   clear:both;
 } */
+
 .contact_wrap .contac_banner h2 {
   margin: auto;
   text-align: center;
@@ -43,56 +43,54 @@
   display: block;
   margin: auto;
   width: 500px;
-  transition:0.3s;
+  transition: 0.3s;
 }
 
 /* modal */
 
-.modal{
+.modal {
   display: none;
   position: relative;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-140%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
   width: 100%;
-  height:615px;
+  height: 615px;
   background-color: rgba(0, 0, 0, 0.5);
   /* background-color: #0948bbb5; */
-
-  z-index:999;
-    cursor: pointer;
+  z-index: 999;
+  cursor: pointer;
 }
 
 .modal img {
   display: block;
-      width: 339px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      /* background: rgba(0, 0, 0, 0.5); */
-      transform: translate(-50%, -50%);
-      z-index: 999;
-
+  width: 339px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
-
 
 span.click1 {
   display: block;
-      position: absolute;
-      left: 20%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      font-size:40px;
-      font-weight: bold;
-      color: #c3c3c382;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: #c3c3c382;
 }
+
 span.click2 {
-     display: block;
-      position: absolute;
-      right: 12%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      font-size:40px;
-      font-weight: bold;
-      color: #c3c3c382;
+  display: block;
+  position: absolute;
+  right: 12%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: #c3c3c382;
 }

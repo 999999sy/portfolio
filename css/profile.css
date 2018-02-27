@@ -1,20 +1,20 @@
 @charset "UTF-8";
-
-
 /* profile */
-#PROFILE{
-  margin:auto;
-  width:1200px;
-  height:700px;
-  background:#3c5f9f;
-}
 
-.left_profile{
-  width:50%;
-  height:inherit;
+#PROFILE {
+  margin: auto;
+  width: 1200px;
+  height: 700px;
   background: #3c5f9f;
 }
-.right_profile{
-  height:inherit;
-  width:50%;
+
+.left_profile {
+  width: 50%;
+  height: inherit;
+  background: #3c5f9f;
+}
+
+.right_profile {
+  height: inherit;
+  width: 50%;
 }
