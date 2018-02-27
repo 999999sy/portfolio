@@ -74,3 +74,25 @@
       z-index: 999;
 
 }
+
+
+span.click1 {
+  display: block;
+      position: absolute;
+      left: 20%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font-size:40px;
+      font-weight: bold;
+      color: #c3c3c382;
+}
+span.click2 {
+     display: block;
+      position: absolute;
+      right: 12%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font-size:40px;
+      font-weight: bold;
+      color: #c3c3c382;
+}
