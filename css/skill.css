@@ -11,6 +11,7 @@
   /* border-top: 5px solid #3c5f9f;
   border-bottom: 5px solid #ffde00; */
   /* background:purple; */
+      overflow: hidden;
 
 }
 
@@ -40,7 +41,7 @@
 
 }
 
-.banner_skill::after{
+#SKILL::before{
   display: block;
   content: '';
   clear:both;

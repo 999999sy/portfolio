@@ -6,6 +6,11 @@
   height: 520px;
   cursor: pointer;
 }
+#CONTACT:before {
+  display: block;
+  content:"";
+  clear:both;
+}
 
 .contact_wrap {
   /* border: 1px solid #000; */

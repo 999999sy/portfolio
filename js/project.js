@@ -30,7 +30,7 @@ function slider(){
 
   $('.slide_button .button_right').on('click',function(){
     num--;
-    $('ul.work_list').stop().animate({'marginLeft':li_width*num},1000);
+    $('ul.work_list').stop().animate({'marginLeft':li_width*num},700);
       if(-list_length==num-3){
         num=1;
         list.css('margin-left','num');
@@ -41,7 +41,7 @@ function slider(){
   num=0;
   $('.slide_button .button_left').on('click',function(){
     num++;
-    $('ul.work_list').stop().animate({'marginLeft':li_width*num-400},1000);
+    $('ul.work_list').stop().animate({'marginLeft':li_width*num-400},700);
     if(list_length==num){
       num=0;
       list.css('margin-left','num');
