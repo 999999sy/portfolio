@@ -49,10 +49,10 @@ ul.left_wrap li{
   width:inherit;
   height:inherit;
   opacity: 0;
-  transition:0.3s;
   color:#fff;
 }
 ul.left_wrap li:hover{
+  transition:0.3s;
   color:#ffde00;
  text-decoration: underline;
  cursor: cell;
@@ -85,10 +85,11 @@ ul.left_wrap li span{
 ul.right_wrap li{
   display: block;
   opacity: 0;
-  transition:0.3s;
+
   color:#fff;
 }
 ul.right_wrap li:hover{
+    transition:0.3s;
   color:#ffde00;
  text-decoration: underline;
   cursor: cell;

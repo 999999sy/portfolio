@@ -6,15 +6,15 @@ $(document).ready(function(){
    var p_top = $('#PROFILE').offset().top;
 
    if(p_top<=w_top+500){
-     $('.left_wrap li:nth-child(1)').fadeIn(50).stop().animate({'opacity':'1'
+     $('.left_wrap li:nth-child(1)').delay(250).animate({'opacity':'1'
    })
-     $('.left_wrap li:nth-child(2)').fadeIn(50).delay(500).stop().animate({'opacity':'1'
+     $('.left_wrap li:nth-child(2)').delay(500).animate({'opacity':'1'
    })
-     $('.right_wrap li:nth-child(1)').fadeIn(50).delay(250).stop().animate({'opacity':'1'
+     $('.right_wrap li:nth-child(1)').delay(250).animate({'opacity':'1'
    })
-     $('.right_wrap li:nth-child(2)').fadeIn(50).delay(1000).stop().animate({'opacity':'1'
+     $('.right_wrap li:nth-child(2)').delay(1000).animate({'opacity':'1'
    })
-     $('.right_wrap li:nth-child(3)').fadeIn(50).delay(1000).stop().animate({'opacity':'1'
+     $('.right_wrap li:nth-child(3)').delay(1000).animate({'opacity':'1'
    })
 
  } //if end
