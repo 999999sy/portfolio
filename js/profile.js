@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 }) // scroll end
 
-  console.log("w_top : " + w_top);
-console.log("top : "+ p_top);
+//   console.log("w_top : " + w_top);
+// console.log("top : "+ p_top);
 
 })

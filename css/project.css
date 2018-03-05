@@ -48,8 +48,9 @@
 }
 
 ul.work_list {
+    /* margin-left:-1200px; */
   display: block;
-  width: 3300px;
+  width: 6000px;
   /* margin-left: -400px; */
 }
 
