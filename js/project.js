@@ -53,14 +53,14 @@ function slide_2(){
 
      })
 
-     i=0;
+
      $('.slide_button .button_right').on('click',function(){
 
-           if(-imgLength_01==i-2){
-             i=1;
+           if(i== imgLength_01-6){
+             i=0;
              list.css({'margin-left':imgWidth*i});
            }
-            i--;
+            i++;
            list.stop().animate({'marginLeft':imgWidth*i},500);
        })
 
