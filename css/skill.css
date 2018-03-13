@@ -16,7 +16,7 @@
 }
 
 .banner_skill{
-  width: inherit;
+  width: 100%;
       height: 420px;
       background: url(../img/banner/skill_2.jpg) no-repeat fixed;
       background-size: cover;
@@ -45,4 +45,38 @@
   display: block;
   content: '';
   clear:both;
+}
+
+@media screen and (max-width:640px){
+  #SKILL{
+  width:100%;
+  }
+    .banner_skill{
+      height:360px;
+    }
+  .banner_skill h2{
+    width:100%;
+    height:160px;
+    line-height:160px;
+  }
+  .banner_skill img{
+    width:600px;
+  }
+}
+@media screen and (max-width:480px){
+  #SKILL{
+  width:100%;
+  }
+    .banner_skill{
+      height:320px;
+    }
+  .banner_skill h2{
+    width:100%;
+    height:160px;
+    line-height:160px;
+  }
+  .banner_skill img{
+    width:400px;
+  }
+
 }

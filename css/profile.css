@@ -216,3 +216,39 @@ em{
   background:url(../img/banner/shadow.png) no-repeat;
 
 }
+
+@media screen and (max-width:640px) {
+  /* profile */
+  .profile_banner span {
+    width: 100%;
+  }
+
+  /* left */
+  .left_wrap{
+    text-align: center;
+    margin-left:-170px;
+  }
+
+  ul.left_wrap li span {
+    margin-right: -130px;
+    font-size: 11px;
+  }
+
+  /* right */
+.right_wrap{
+  text-align: center;
+  margin-left:-248px;
+}
+ul.right_wrap li span{
+  font-size:11px;
+  text-align: center;
+}
+/* border none */
+.left_profile{
+  border: none;
+}
+  /* dot display none */
+  .dot1 , .dot2 , .dot3, .dot4 {
+    display: none;
+  }
+}

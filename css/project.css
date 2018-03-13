@@ -382,57 +382,6 @@ ul.work_list li .work_web img:hover {
   }
 
 
-  /* profile */
-  .profile_banner span {
-    width: 100%;
-  }
-  /* left */
-  ul.left_wrap li span{
-    margin-right:10px;
-    font-size: 12px;
-  }
-  .dot1>span,.dot2 span,.dot3 span,.dot4 span{
-    background: none;
-  }
-  /* right */
-  ul.right_wrap li span{
-    margin-left:10px;
-    font-size: 12px;
-  }
-  ul.right_wrap li:nth-child(2) {
-    margin-top: 80px;
-    margin-bottom: 20px;
-}
-
-/* skill */
-#SKILL{
-  width:100%;
-}
-.banner_skill{
-  width:100%;
-}
-.banner_skill h2{
-  width:100%;
-  height:160px;
-  line-height: 160px;
-}
-
-.banner_skill>img{
-  display: block;
-  width: 610px;
-}
-
-/* contact */
-#CONTACT{
-  width:100%;
-}
-.contact_wrap{
-  width:100%;
-}
-.contact_wrap .contact_phone img{
-  width:250px;
-}
-
 }
 
 @media screen and (max-width:480px) {
@@ -472,7 +421,7 @@ ul.work_list li .work_web img:hover {
     width: 290px;
   }
   .purapy>ul>li .work_web div.show_button {
-    margin-right: 131px;
+    margin-right: 121px;
   }
   /* profile */
   .profile_banner span {
@@ -483,16 +432,20 @@ ul.work_list li .work_web img:hover {
     border: none;
   }
   /* left */
+  .left_wrap{
+    text-align: center;
+    margin-left:-170px;
+  }
   ul.left_wrap li span {
     margin-right: -130px;
     font-size: 11px;
   }
 
   /* right */
+.right_wrap{
+  text-align: center;
+  margin-left:-170px;
+}
 
 
-  /* dot display none */
-  .dot1 , .dot2 , .dot3, .dot4 {
-    display: none;
-  }
 }

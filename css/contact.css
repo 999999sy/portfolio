@@ -99,3 +99,16 @@ span.click2 {
   font-weight: bold;
   color: #c3c3c382;
 }
+
+@media screen and (width-max:640px) {
+  /* contact */
+  #CONTACT{
+    width:100%;
+  }
+  .contact_wrap{
+    width:100%;
+  }
+  .contact_wrap .contact_phone img{
+    width:250px;
+  }
+}
