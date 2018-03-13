@@ -38,10 +38,25 @@
   border: 2px solid #fff;
   top: 170px;
 }
+/*  웹 접근 성을 위한 추가 속성 */
 
 #mouse-scroll .down-arrow-1 {
   margin-top: 6px;
+  text-indent: -9999px;
+
 }
+#mouse-scroll .down-arrow-2 {
+  margin-top: 6px;
+  text-indent: -9999px;
+
+}
+#mouse-scroll .down-arrow-3 {
+  margin-top: 6px;
+  text-indent: -9999px;
+
+}
+
+/* 웹 접근성 추가 속성 end  */
 
 #mouse-scroll .down-arrow-1, #mouse-scroll .down-arrow-2, #mouse-scroll .down-arrow-3 {
   -webkit-animation: mouse-scroll 1s infinite;

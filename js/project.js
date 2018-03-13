@@ -33,7 +33,7 @@ function slide_2(){
      //슬라이드 이후에
      list.append(copyObj);
      // 슬라이드 이전
-     // list.prepend(copyObj);
+     list.prepend(copyObj);
 
 
      //이미지 슬라이드 처리
@@ -53,13 +53,13 @@ function slide_2(){
 
      })
 
+     $('.button_right').click(function(){
 
-     $('.slide_button .button_right').on('click',function(){
-
-           if(i== imgLength_01-6){
+           if(i== imgLength_01-4){
              i=0;
              list.css({'margin-left':imgWidth*i});
            }
+           console.log(i);
             i++;
            list.stop().animate({'marginLeft':imgWidth*i},500);
        })
