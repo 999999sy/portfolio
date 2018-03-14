@@ -264,7 +264,9 @@ nav{
 .work_banner{
   width:100%;
 }
-
+.main_text_wrap{
+  width:230px;
+}
 .main_text_wrap h1{
   font-size: 50px;
 }

@@ -133,3 +133,9 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width:640px){
+  #mouse-scroll{
+    top: 74%;
+  }
+}
