@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 반응형 meta -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/css.css">
   <link rel="stylesheet" href="./css/profile.css">
@@ -22,6 +24,7 @@
 </head>
 
 <body>
+    <div class="content_wrap">
   <header id="HOME">
     <nav>
       <ul>
@@ -81,9 +84,33 @@
       </div>
 
       <!-- work slider -->
-      <div class="work_slider">
+      <div id="slide_wrap">
+     <!-- 이전/다음 버튼 -->
+     <div id="buttons">
+        <i class="ion-chevron-left left arrow"></i>
+        <i class="ion-chevron-right right arrow"></i>
+     </div>
+
+     <!-- paging -->
+
+     <ul id="paging">
+        <!-- <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li> -->
+     </ul>
+
+
+     <!-- 재생/정지 버튼 -->
+     <div class="control">
+        <a class="ion-ios-pause pause" href="#"></a>
+        <a class="ion-ios-play play" href="#"></a>
+     </div>
+
+     <!-- 이미지 -->
+     <!-- div#wrap>ul>(li>div)*3 -->
+     <div id="PROJECT">
+       <div class="work_slider">
         <ul class="work_list">
-          <!-- starbucks  -->
           <li>
             <div class="work_web">
               <a href="https://object402.github.io/starbucks/" target="_blank"><img src="./img/work/starbucks.jpg" alt=""></a>
@@ -201,37 +228,11 @@
                 </div>
               </li>
         </ul>
-      </div>
-      <div class="slide_button">
-        <span class="button_left"></span>
-        <span class="button_right"></span>
-      </div>
-      <!-- branding -->
-      <div class="branding">
-        <div class="branding_banner">
-          <span>BRANDING DESIGN</span>
-        </div>
-        <div class="purapy">
-          <ul>
-            <li>
-              <div class="work_web">
-                <a href="https://999999sy.github.io/purapy" target="_blank"><img src="./img/work/purapy2.jpg" alt="work_img"></a>
-                <!-- title -->
-                <div class="work_title">
-                  <h2>PURAPY</h2>
-                  <span>BRANDING DESIGN</span>
-                  <span>
-                향기 테라피 브랜드,<br>
-                고객이 캔들과 차를 커스터마이징<br>
-                할 수 있는 브랜드
-              </span>
-                </div>
-                <div class="show_button"><a href="https://999999sy.github.io/purapy" target="_blank">SHOW</a></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+     </div>
+     </div>
+
+  </div>
+
     </div>
 
     <div id="PROFILE">
@@ -311,6 +312,7 @@
         <span class="click2">HERE!</span>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
