@@ -1,7 +1,3 @@
-$(window).resize(function() {
-  window_h();
-})
-
 
 $(document).ready(function() {
 

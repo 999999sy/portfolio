@@ -11,6 +11,7 @@ nav {
   position: relative;
   z-index: 999;
   width: 100%;
+min-width:1200px;
   height: 50px;
   line-height: 50px;
   background: #fff;
@@ -227,4 +228,52 @@ nav ul li a:hover {
   box-sizing: border-box;
 }
 
-/* section  */
+
+
+@media screen and (max-width:640px) {
+
+header{
+  width:100%;
+}
+
+/* 햄버거 버튼 할 거임 */
+
+nav{
+  display:none;
+}
+/* left content */
+.laugh{
+  width:100%;
+}
+.haha img.laugh_1{
+  display: block;
+  width:100%;
+}
+.haha .my_name{
+  font-size: 12px;
+  line-height: 18px;
+}
+.line {
+    position: absolute;
+    left: 84px;
+    top: 242px;
+    width: 1px;
+    height: 60px;
+    border-left: 1px solid #3c5f9f;
+}
+/* right content */
+.work_banner{
+  width:100%;
+}
+.main_text_wrap{
+  width:230px;
+}
+.main_text_wrap h1{
+  font-size: 50px;
+}
+.main_text_wrap span.main_info{
+  font-size: 15px;
+}
+
+
+}

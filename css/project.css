@@ -11,10 +11,14 @@
   box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
   /* background: yellow; */
 }
+#PROJECT{
+
+}
 
 /* section */
 
 .work_banner {
+  margin-bottom: -82px;
   position: relative;
   width: 100%;
   height: 250px;
@@ -40,6 +44,114 @@
 
 /*  starbucks  */
 
+/* 좌우버튼 */
+#buttons{
+  box-sizing: border-box;
+      margin: auto;
+      width: 1330px;
+      position: relative;
+      /* left: 39%;
+      transform: translate(-49%); */
+      top: 369px;
+      color:#3c5f9f
+}
+#buttons .left{
+    margin-right: 1270px;
+  cursor: pointer;
+}
+#buttons .right{
+   /* margin-right: 1180px; */
+   cursor: pointer;
+}
+.ion-chevron-left,
+.ion-chevron-right{
+   font-size: 50px;
+}
+/* 스탑/플레이 */
+.control{
+  text-align: center;
+  position: relative;
+      z-index: 1;
+      top: 568px;
+      /* left: 50%; */
+      margin-left: 26px;
+}
+.control a{
+      margin-left: 70px;
+  color:#3c5f9f;
+}
+.play{
+   display: none;
+}
+.pause{}
+
+/* 페이징 */
+#paging{
+  position: relative;
+  margin:auto;
+  z-index: 1;
+  width: 130px;
+  /* left: 50%;
+  transform: translate(-50%); */
+  top: 586px;
+}
+#paging li{
+   display: inline-block;
+   margin-right: 5px;
+}
+#paging li a{
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   background-color:  #3c5f9f;
+   border-radius: 5px;
+   transition: 0.3s;
+}
+#paging li a.active,
+#paging li a:hover{
+   background-color: #ffde00;
+}
+#paging li a{
+   text-indent: -99999px;
+}
+
+/* 이미지 */
+  /* .work_slider {
+      margin: auto;
+      width: 1200px;
+      height: auto;
+      overflow: hidden;
+  }
+
+  .work_slider .work_list{
+     width:1200px;
+     height: 300px;
+  }
+  .work_slider .work_list li{
+
+     width: 400px;
+     height: 200px;
+     border: 1px solid black;
+     display: inline-block;
+     float: left;
+  }
+  .work_slider .work_list li div{
+
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        display: inline-block;
+        float: left;
+  }
+  .work_slider .work_list li div img{
+     width: 300px;
+     height: 300px;
+  } */
+
+/* 내 코드 ADD */
+
+/*  starbucks  */
+
 .work_slider {
   margin: auto;
   width: 1200px;
@@ -48,10 +160,10 @@
 }
 
 ul.work_list {
-    /* margin-left:-1200px; */
+  /* margin-left:-1200px; */
   display: block;
   width: 6000px;
-  /* margin-left: -400px; */
+  margin-left: -400px;
 }
 
 ul.work_list li {
@@ -79,7 +191,7 @@ ul.work_list li .work_web img:hover {
 .work_list li .work_web .work_title {
   margin: auto;
   margin-top: 20px;
-  width: 290px;
+  width: 400px;
   /* border: 5px solid #3c5f9f; */
   border-top: 0;
   border-bottom: 0;
@@ -150,7 +262,7 @@ ul.work_list li .work_web img:hover {
   position: relative;
   left: 0;
   margin: auto;
-  width: 1320px;
+  width: 1260px;
   height: 50px;
   bottom: 370px;
 }

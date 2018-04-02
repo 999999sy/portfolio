@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 반응형 meta -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/css.css">
   <link rel="stylesheet" href="./css/profile.css">
@@ -22,6 +24,7 @@
 </head>
 
 <body>
+    <div class="content_wrap">
   <header id="HOME">
     <nav>
       <ul>
@@ -37,7 +40,7 @@
       <div class="haha">
         <span class="my_name">P<br>A<br>R<br>K<br>S<br>O<br>Y<br>O<br>U<br>N<br>G</span>
         <div class="line"></div>
-        <img src="./img/laugh_1.png" alt="" class="laugh_1">
+        <img src="./img/laugh_1.png" alt="main men" class="laugh_1">
         <div class="line_wrap">
           <div class="haha_line_1"></div>
           <div class="haha_line_2"></div>
@@ -61,9 +64,9 @@
           <div class="mouse-in"></div>
         </div>
         <div>
-          <span class="down-arrow-1"></span>
-          <span class="down-arrow-2"></span>
-          <span class="down-arrow-3"></span>
+          <span class="down-arrow-1">main down arrow icon</span>
+          <span class="down-arrow-2">main down arrow icon</span>
+          <span class="down-arrow-3">main down arrow icon</span>
         </div>
       </div>
     </a>
@@ -81,9 +84,34 @@
       </div>
 
       <!-- work slider -->
-      <div class="work_slider">
+      <div id="slide_wrap">
+     <!-- 이전/다음 버튼 -->
+     <div id="buttons">
+        <i class="ion-chevron-left left arrow"></i>
+        <i class="ion-chevron-right right arrow"></i>
+     </div>
+
+     <!-- paging -->
+
+     <ul id="paging">
+        <!-- <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li> -->
+     </ul>
+
+
+     <!-- 재생/정지 버튼 -->
+     <div class="control">
+        <a class="ion-ios-pause pause" href="#"></a>
+        <a class="ion-ios-play play" href="#"></a>
+     </div>
+
+     <!-- 이미지 -->
+     <!-- 이미지 -->
+     <!-- div#wrap>ul>(li>div)*3 -->
+     <div id="PROJECT">
+       <div class="work_slider">
         <ul class="work_list">
-          <!-- starbucks  -->
           <li>
             <div class="work_web">
               <a href="https://object402.github.io/starbucks/" target="_blank"><img src="./img/work/starbucks.jpg" alt=""></a>
@@ -201,37 +229,11 @@
                 </div>
               </li>
         </ul>
-      </div>
-      <div class="slide_button">
-        <span class="button_left"></span>
-        <span class="button_right"></span>
-      </div>
-      <!-- branding -->
-      <div class="branding">
-        <div class="branding_banner">
-          <span>BRANDING DESIGN</span>
-        </div>
-        <div class="purapy">
-          <ul>
-            <li>
-              <div class="work_web">
-                <a href="https://999999sy.github.io/purapy" target="_blank"><img src="./img/work/purapy2.jpg" alt="work_img"></a>
-                <!-- title -->
-                <div class="work_title">
-                  <h2>PURAPY</h2>
-                  <span>BRANDING DESIGN</span>
-                  <span>
-                향기 테라피 브랜드,<br>
-                고객이 캔들과 차를 커스터마이징<br>
-                할 수 있는 브랜드
-              </span>
-                </div>
-                <div class="show_button"><a href="https://999999sy.github.io/purapy" target="_blank">SHOW</a></div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
+     </div>
+     </div>
+
+  </div>
+
     </div>
 
     <div id="PROFILE">
@@ -255,8 +257,8 @@
               <span class="2013"><em>2013년 3월</em>&nbsp; - 삼육대학교 미술컨텐츠입학 &nbsp; &#43;&nbsp;&nbsp;</span>
             </li>
             <li>
-              <span class="2016"><em>2016년</em>&nbsp; - 한국창작문화에술대전 동상
-&nbsp; &#43;&nbsp;&nbsp;</span>
+              <span class="2017">
+<em>2017년 02월</em>&nbsp; - 삼육대학교 미술컨텐츠학과 졸업 &nbsp; &#43; &nbsp; </span>
             </li>
           </ul>
         </div>
@@ -265,12 +267,13 @@
           <ul class="right_wrap">
             <li>
               <span class="2015">
-&nbsp; &#43; &nbsp; <em>2015년 00월 ~ 00 월</em> &nbsp; - '멍석커뮤니케이션'인턴</span>
+&nbsp; &#43; &nbsp; <em>2015년 12월 ~ 2016년 2월</em> &nbsp; - '멍석커뮤니케이션'인턴</span>
             </li>
             <li>
-              <span class="2017">
-&nbsp; &#43; &nbsp; <em>2017년 02월</em>&nbsp; - 삼육대학교 미술컨텐츠학과 졸업</span>
+              <span class="2016">&nbsp; &#43;&nbsp;&nbsp;<em>2017년 4월</em>&nbsp; - 한국창작문화에술대전 동상
+</span>
             </li>
+
             <li>
               <span class="2017">
 &nbsp; &#43; &nbsp; <em>2017년 04월 ~ 11월 </em> - &nbsp; UI/UX엔지니어링 및 <br> &nbsp; &nbsp; &nbsp; &nbsp;응용SW엔지니어링 양성과정 수료</span>
@@ -310,6 +313,7 @@
         <span class="click2">HERE!</span>
       </div>
     </div>
+  </div>
   </div>
 </body>
 
