@@ -47,7 +47,7 @@
   clear:both;
 }
 
-@media screen and (max-width:640px){
+/* @media screen and (max-width:640px){
   #SKILL{
   width:100%;
   }
@@ -62,8 +62,8 @@
   .banner_skill img{
     width:600px;
   }
-}
-@media screen and (max-width:480px){
+} */
+/* @media screen and (max-width:480px){
   #SKILL{
   width:100%;
   }
@@ -79,4 +79,4 @@
     width:400px;
   }
 
-}
+} */

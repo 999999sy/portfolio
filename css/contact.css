@@ -101,9 +101,9 @@ span.click2 {
   color: #c3c3c382;
 }
 
-@media screen and (max-width:640px) {
+/* @media screen and (max-width:640px) { */
   /* contact */
-  #CONTACT {
+  /* #CONTACT {
     width: 100%;
   }
   .contact_wrap {
@@ -126,5 +126,5 @@ span.click2 {
   }
   .modal span {
     display: none;
-  }
-}
+  } */
+/* } */
