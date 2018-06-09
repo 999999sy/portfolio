@@ -81,8 +81,10 @@
       margin-left: 26px;
 }
 .control a{
-      margin-left: 70px;
+  margin-left: 70px;
   color:#3c5f9f;
+}
+.control a img{
 }
 .play{
    display: none;
